@@ -1,0 +1,296 @@
+body {
+     background: url("yellowww.jpg") repeat;
+}
+
+p {
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     text-align: center;
+     background: #FFD700;
+}
+
+p.less {
+     width: 75%;
+}
+
+div.buttons {
+     width:75%;
+     text-align: center;
+}
+
+a:link {
+     color: #006400;
+}
+
+a:visited {
+     color: #006400;
+}
+/*
+     color: #4B0082;
+}*/
+
+
+h1, h2 {
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     text-align: center;
+     background: #FFD700;
+     width: 74%;
+}
+
+h1 span.y, h2 span.y {
+     background: #FFD700;
+}
+
+input[type=submit]{
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul {
+
+     margin: 0;
+}
+
+
+table {
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+th {
+     border: 1;
+}
+
+tr {
+     border: 0;
+}
+
+
+
+tr.reviews {
+     cursor:pointer;
+}
+
+img.background {
+   background-repeat:repeat-y;
+}
+
+.showName {
+     text-align: left;
+     font-weight: bold;
+     font-size: 2 em;
+}
+
+.character {
+     text-align: left;
+     font-size: 1.5 em;
+}
+
+.langName {
+     text-align: center;
+     font-weight: bold;
+     font-size: 2 em;
+}
+
+.rowCat {
+     text-align: left;
+     font-size: 1.5 em;
+}
+
+.langCat {
+     text-align: center;
+     font-size: 3 em;
+}
+
+.filler {
+     visibility: hidden;
+}
+
+.example-image-link{
+	display:inline-block;
+	padding:2px;
+	margin:0 .5rem 1rem .5rem;
+	background-color:#fff;
+	line-height:0;
+	border-radius:4px;
+	transition: background-color .5s ease-out
+}
+.example-image-link:hover{
+	background-color:#4ae;
+	transition:none
+}
+
+.image-row{
+	text-align:center
+}
+
+div.wrapper {
+     width:98%;
+     margin:1%;
+     margin-right:200px;
+}
+
+#leftstuff {
+     float: left;
+     width: 75%;
+}
+
+#posters {
+     position: absolute;
+     top: 1px;
+     float: right;
+     width: 19%;
+     margin-left: 77%;
+     margin-right: 96%;
+
+}
+
+IMG.displayed {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#cleared{
+     clear: both;
+}
+
+table.current{
+     float: left;
+     width: 75%;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+table#resume{
+     float: left;
+     width: 75%;
+     margin-top: -30px;
+}
+
+table#resume2{
+     float: left;
+     width: 75%;
+     margin-top: 50px;
+}
+
+.eggplant {
+    width: 75%;
+}
+
+table.langtab {
+    width: 75%;
+    border-color: #FFD700;
+    bgcolor: #FFD700;
+}
+
+table.menu {
+    width: 75%;
+    height: 35px;
+    font-size: 15px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  /*  text-shadow: 3px 2px 3px #333333;*/
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+table.heading {
+     width: 75%;
+     text-align: center;
+     font-size: 2em;
+     font-weight: bold;
+}
+
+table.title {
+    width: 75%;
+    color: #006400;
+    font-size: 40px;
+    font-family: Ariel, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: #9ACD32;
+    border-radius: 8px;
+}
+
+table.copyright {
+    margin-left: 25%;
+    width: 50%;
+    background-color:transparent;
+    color: black;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+table.menu#pages {
+    width: 97%;
+}
+
+table.menu#home {
+    width: 100%;
+}
+
+table.menu a {
+    text-decoration: none;
+    color: #006400;
+}
+
+table.menu a:hover {
+    color: #FFD700;
+    background-color: #FFF;
+}
+
+td.current {
+   color: #4B0082;
+}
+
+tr.row1 {
+    background-color: #9ACD32;
+}
+
+tr.row2 {
+    background-color:transparent;
+}
+
+.x {
+
+    font-size: 40px;
+}
+
+/*
+.menu tr#toprow {
+    background-color: #9ACD32;
+}
+
+.menu tr#eggplantrow {
+    background-color: transparent;
+}
+
+#menu tr {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+
+
+#menu td { 
+display: inline; 
+padding: 10px; 
+}
+
+menu a {
+    text-decoration: none;
+    color: #006400;
+    padding: 8px 8px 8px 8px;
+}
+
+#menu a:hover {
+    color: #F90;
+    background-color: #FFF;
+}*/

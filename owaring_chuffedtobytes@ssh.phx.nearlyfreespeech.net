@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<html>
+<head>
+  <title>Olivia Mae Waring - Home</title>
+  <link REL="StyleSheet" TYPE="text/css" HREF="styles.css">
+  <link rel="stylesheet" type="text/css" href="lightbox/dist/css/lightbox.css" media="screen">
+
+
+</head>
+
+
+
+
+<body bgcolor="#ffcc11">
+
+
+<map id="mymap" name="mymap">
+<area shape="rect" alt="" title="" coords="5,7,472,1025" href="langandling.html" target="_self" />
+<area shape="rect" alt="" title="" coords="487,403,881,984" href="musictheater_nojs.html" target="_self" />
+<area shape="rect" alt="" title="" coords="940,299,1369,819" href="armchairjournalism.html" target="_self" />
+<area shape="rect" alt="" title="" coords="1336,1004,1551,1118" href="randomrubbish.html" target="_self" />
+<area shape="rect" alt="" title="" coords="1606,246,2260,943" href="scitech.html" target="_self" />
+<!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) --></map>
+
+<center><h2>The website of <br><span class="x">OLIVIA MAE WARING</span> <br>"Because the domain name was somehow still available and maybe I'll run for President in 2032."</h2></center>
+<center><img src="homepage.jpg" usemap="#mymap" width="70%" style="border:25px; border-style:solid; border-color:#9ACD32 #9ACD32;"></center>
+
+
+<table class="menu" id="home" border="0" border-collapse="collapse">
+<col width="50">
+<col width="50">
+<col width="50">
+<col width="50">
+<col width="50">
+<col width="50">
+<col width="50">
+<col width="50">
+<tr class="row2">
+<td align="center"><img src="eggplant.jpg" width=30></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row1">
+<td class="current">Home</td>
+<td><a href="About/about.html">About</a></td>
+<td><a href="SciTech/scitech.html">Science and Technology</a></td>
+<td><a href="LangLing/langling.html">Languages and Linguistics</a></td>
+<td><a href="PerfArts/perfarts.html">Performing Arts</a></td>
+<td><a href="Journalism/journalism.html">Armchair<br>Journalism</a></td>
+<td><a href="BitsBobs/bitsbobs.html">Bits and Bobs</a></td>
+<td><a href="Contact/contact.php">Contact</a></td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<table class="copyright" border="0" border-collapse="collapse" margin-left="25%">
+<tr>
+<td>This website was designed and built by Olivia M. Waring using HTML, CSS, and JavaScript, © 2015. She's pretty certain that copyright sign is meaningless in this context, but she's including it because it looks cool.</td>
+</tr>
+</table>
+
+</body>
