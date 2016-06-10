@@ -4,8 +4,14 @@
 <head>
   <title>Languages and Linguistics</title>
  <link REL="StyleSheet" TYPE="text/css" HREF="../styles.css">
+   <link rel="stylesheet" href="../jquery-ui/jquery-ui.css">
+  <script src="../jquery-ui/external/jquery/jquery.js"></script>
+  <script src="../jquery-ui/jquery-ui.js"></script>
+
 </head>
 <body>
+
+
 
 <table class="title" id="pages" border="0" border-collapse="collapse">
 <tr>
@@ -13,23 +19,17 @@
 </tr>
 </table>
 
-
-<div class="wrapper">
-
-
 <p class="less">
 There is virtually nothing in the world - with the possible exception of singing William Byrd - from which I derive more joy than learning languages. If you are aware of any careers that consist primarily of gallivanting around the globe and serially enrolling in intensive language programs, <i>please</i> <a href="../Contact/contact.php">let me know</a>. :D
 </p>
 
 
-<table class="heading" border="0" border-collapse="collapse">
-<tr>
-  <td>LANGUAGES</td>
-</tr>
-</table>
+<div id="maincontent">
+<h1>LANGUAGES</h1>
 
-
-
+<div id="accordion">
+<h3>MANDARIN CHINESE (中文!)</h3>
+<div>
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/mandarin.png) repeat 0; background-size:100%;">
 <col width="150">
@@ -69,6 +69,11 @@ There is virtually nothing in the world - with the possible exception of singing
 </table>
 <br>
 
+</div>
+
+<h3>GERMAN (Deutsch!)</h3>
+<div>
+
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/deutsch.png) repeat 0; background-size:100%;">
 <col width="150">
 <col width="140">
@@ -97,7 +102,11 @@ There is virtually nothing in the world - with the possible exception of singing
 
 </table>
 
-<br>
+</div>
+
+<h3>ITALIAN (Italiano!)</h3>
+<div>
+
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/italian.png) repeat 0; background-size:100%;">
 <col width="150">
@@ -132,7 +141,11 @@ There is virtually nothing in the world - with the possible exception of singing
   </tr>
 
 </table>
-<br>
+</div>
+
+<h3>FRENCH (Français!)</h3>
+<div>
+
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/french.png) repeat 0; background-size:100%;">
 <col width="150">
@@ -160,7 +173,11 @@ There is virtually nothing in the world - with the possible exception of singing
 
 </table>
 
-<br>
+</div>
+
+<h3>HINDI (हिन्दी!)</h3>
+<div>
+
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/hindi.png) repeat 0; background-size:100%;">
 <col width="150">
 <col width="140">
@@ -188,7 +205,11 @@ There is virtually nothing in the world - with the possible exception of singing
 
 
 </table>
-<br>
+</div>
+
+
+<h3>JAPANESE (日本語!)</h3>
+<div>
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/japanese.png) repeat 0; background-size:100%;">
 <col width="150">
@@ -213,7 +234,11 @@ There is virtually nothing in the world - with the possible exception of singing
 
 
 </table>
-<br>
+</div>
+
+<h3>TIBETAN (བོད་སྐད་!)</h3>
+<div>
+
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/tibetan.png) repeat 0; background-size:100%;"><col width="150">
 <col width="140">
@@ -237,7 +262,11 @@ There is virtually nothing in the world - with the possible exception of singing
 
 
 </table>
-<br>
+</div>
+
+<h3>ARABIC (!االعَرَبِية)</h3>
+<div>
+
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/arabic.png) repeat 0; background-size:100%;">
 <col width="150">
@@ -259,8 +288,10 @@ There is virtually nothing in the world - with the possible exception of singing
   </tr>
 
 </table>
-<br>
+</div>
 
+<h3>ECCLESIASTICAL LATIN</h3>
+<div>
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/latin.png) repeat 0; background-size:100%;"><col width="150">
 <col width="140">
@@ -282,7 +313,10 @@ There is virtually nothing in the world - with the possible exception of singing
   </tr>
 
 </table>
-<br>
+</div>
+
+<h3>ATTIC GREEK</h3>
+<div>
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/greek.png) repeat 0; background-size:100%;"><col width="150">
 <col width="140">
@@ -303,7 +337,11 @@ There is virtually nothing in the world - with the possible exception of singing
   </tr>
 
 </table>
-<br>
+</div>
+
+
+<h3>SANSKRIT</h3>
+<div>
 
 <table class="langtab" border="1" border-collapse="collapse" style="    background:url(images/sanskrit.png) repeat 0; background-size:100%;"><col width="150">
 <col width="140">
@@ -325,85 +363,41 @@ There is virtually nothing in the world - with the possible exception of singing
 
 </table>
 
+</div>
+</div>
+
+<h1>LINGUISTICS</h1>
+
+<div id="accordion2">
+<h3>UNIVERSITY OF OXFORD: Master of Studies, General Linguistics and Comparative Philology</h3>
+<div>
+October 2012 - June 2013
+<br>Select coursework: Syntax, Semantics, Phonetics, Phonology, Computational Linguistics
 <br>
+Thesis: "Baima Tibetan, Standard Tibetan, and Mandarin: A Comparative Syntactic Analysis using Lambek Pregroups" </td>
 <br>
-<table class="heading" border="0" border-collapse="collapse">
-<tr>
-  <td>LINGUISTICS</td>
-</tr>
-</table>
-
-<table id="resume" border="0" border-collapse="collapse" bgcolor="#FFD700">
-<col width="25">
-<col width="670">
-<!-- <col width="200"> -->
-<tr>
-  <td CLASS="showName" colspan="2">UNIVERSITY OF OXFORD: MASTER OF STUDIES, GENERAL LINGUISTICS AND COMPARATIVE PHILOLOGY</td>
-  
-<tr>
-  <td></td>
-  <td>October 2012 - June 2013</td>
-</tr>
-
-</tr>
-<tr>
-  <td></td>
-  <td>Select coursework: Syntax, Semantics, Phonetics, Phonology, Computational Linguistics</td>
-<!--  <td rowspan="13"> 
-     <ul><li>Chinese Rap</li>
-     <li>Eros Ramazzoti</li>
-     <li>Stromae</li>
-     <li>Mayeri</li>
-     <li>Tajdar-e-haram</li>
-     <li>Was wir alleine... (make this a different color!)</li>
-  </td>
-  -->
-</tr>
-<tr>
-  <td></td>
-  <td>Thesis: "Baima Tibetan, Standard Tibetan, and Mandarin: A Comparative Syntactic Analysis using Lambek Pregroups" </td>
-</tr>
-<tr>
-  <td></td>
-   <td colspan="2"><a href="javascript:showHide(1);">
-   <span class="displayText" id="displayText1">Abstract (show)</span></td>
-</tr>
-<tr style="display: none;" id="abstract1"> 
-   <td></td>
-   <td colspan="2">Lambek Syntactic Calculus has been invoked to analyze the syntax of a wide variety of languages, including English, German, Italian, Japanese, and Persian. To date, however, most algebraic investigations of this sort have been anecdotal and qualitative, relying on a cursory analysis of just a smattering of sentences in any given language. In this master's dissertation, I have designed and implemented a customizable, portable parsing algorithm for the large-scale algebraic analysis of parallel corpuses. My hope is that upon further development, this approach might constitute a novel, syntax-driven technique for phylogenetic analysis. I have successfully applied my program to sentences in German, Mandarin, Tibetan, and Baima (a Tibeto-Burman language of contested genetic affiliation), thereby demonstrating the feasibility of automatic pregroup parsing. Although my data sets were too small to yield any iron-clad quantitative results, I was able to obtain average Degree of Nesting values for all four languages that are consistent with intuition and empirical observation.</td>
-</tr>
-
+   <a href="javascript:showHide(1);">
+   <span class="displayText" id="displayText1">Abstract (show)</span></a>
 <br>
+<div style="display: none;" id="abstract1"> 
+Lambek Syntactic Calculus has been invoked to analyze the syntax of a wide variety of languages, including English, German, Italian, Japanese, and Persian. To date, however, most algebraic investigations of this sort have been anecdotal and qualitative, relying on a cursory analysis of just a smattering of sentences in any given language. In this master's dissertation, I have designed and implemented a customizable, portable parsing algorithm for the large-scale algebraic analysis of parallel corpuses. My hope is that upon further development, this approach might constitute a novel, syntax-driven technique for phylogenetic analysis. I have successfully applied my program to sentences in German, Mandarin, Tibetan, and Baima (a Tibeto-Burman language of contested genetic affiliation), thereby demonstrating the feasibility of automatic pregroup parsing. Although my data sets were too small to yield any iron-clad quantitative results, I was able to obtain average Degree of Nesting values for all four languages that are consistent with intuition and empirical observation.
+</div>
+</div>
 
-<tr>
-  <td CLASS="showName" colspan="2"><a href="http://www.casl.umd.edu/" target="_blank">CENTER FOR ADVANCED STUDY OF LANGUAGE</a>: RESEARCH ASSISTANT</td>
-</tr>
-<tr>
-  <td></td>
-  <td>July - September 2013</td>
-</tr>
-<tr>
-  <td></td>
-   <td>Helped develop morphological parsing software for languages critical to national security.</td>
-</tr>
-
+<h3><a href="http://www.casl.umd.edu/" target="_blank">CENTER FOR ADVANCED STUDY OF LANGUAGE</a>: Research Assistant</h3>
+<div>
+July - September 2013
 <br>
+Helped develop morphological parsing software for languages critical to national security.
+</div>
 
-<tr>
-  <td CLASS="showName" colspan="2">LANGUAGE DOCUMENTATION</td>
-</tr>
-<tr>
-    <td></td>
-  <td>April 2013: Mianning, China</td>
-</tr>
-<tr>
-  <td></td>
-   <td>Under the guidance of <a href="http://www.katia-chirkova.info/" target="_blank">Katia Chirkova</a>, I assisted in performing a phonological and lexical survey of the moribund Duoxu dialect of Ersu, a highly endangered Tibeto-Burman language.</td>
-</tr>
-<tr>
-  <td></td>
-   <td>Katia's <a href="http://www.katia-chirkova.info/resources/publications/published/KC2014Ersu-Lizu-Duoxu.pdf" target="_blank">findings</a> on the Duoxu language were published in <i>Linguistics of the Tibeto-Burman Area</i> in 2014.</td>
-</tr>
+<h3>LANGUAGE DOCUMENTATION</h3>
+<div>April 2013: Mianning, China
+<br>
+Under the guidance of <a href="http://www.katia-chirkova.info/" target="_blank">Katia Chirkova</a>, I assisted in performing a phonological and lexical survey of the moribund Duoxu dialect of Ersu, a highly endangered Tibeto-Burman language.
+<br>
+Katia's <a href="http://www.katia-chirkova.info/resources/publications/published/KC2014Ersu-Lizu-Duoxu.pdf" target="_blank">findings</a> on the Duoxu language were published in <i>Linguistics of the Tibeto-Burman Area</i> in 2014.
+</div>
 
 <!--
 <tr>
@@ -418,9 +412,13 @@ There is virtually nothing in the world - with the possible exception of singing
    <td>Description of duties</td>
 </tr>
 -->
+</div>
+<table class="copyright" border="0" border-collapse="collapse">
+<tr>
+<td>This website was designed and built by OMW using HTML, CSS, and JavaScript, © 2015-2016. She's pretty certain that copyright sign is meaningless in this context, but she's including it because it makes her feel more legit. Hosted by NearlyFreeSpeech.NET.</td>
+</tr>
 </table>
-
-
+<!--
 <div id="posters">
    <img class="displayed" src="images/fleursdumal.jpg" width=120 style="border:10px; border-style:solid; border-color:#FFD700;">
    <br>
@@ -444,51 +442,137 @@ There is virtually nothing in the world - with the possible exception of singing
    <br>
    <img class="displayed" src="images/sposi.jpg" width=120 style="border:10px; border-style:solid; border-color:#FFD700;">
    <br>
+</div>-->
 </div>
 
-</div>
+<div id="posters">
 
 <table class="menu" id="pages" border="0" border-collapse="collapse">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<tr class="row2">
-<td></td>
-<td></td>
-<td></td>
-<td align="center"><img src="../eggplant.jpg" width=30></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-
-</tr>
-<tr class="row1">
-<td><a href="../index.html">Home</a></td>
-<td><a href="../About/about.html">About</a></td>
-<td><a href="../SciTech/scitech.html">Science and Technology</a></td>
-<td class="current">Languages and Linguistics</td>
-<td><a href="../PerfArts/perfarts.html">Performing Arts</a></td>
-<td><a href="../Journalism/journalism.html">Armchair<br>Journalism</a></td>
-<td><a href="../BitsBobs/bitsbobs.html">Bits and Bobs</a></td>
-<td><a href="../Contact/contact.php">Contact</a></td>
-</tr>
-
-</table>
-
-<br>
-<br>
-
-<table class="copyright" border="0" border-collapse="collapse">
+<col width="20">
+<col background-color="#9ACD32" width="180" border-radius="4px">
 <tr>
-<td>This website was designed and built by OMW using HTML, CSS, and JavaScript, © 2015. She's pretty certain that copyright sign is meaningless in this context, but she's including it because it makes her feel more legit. Hosted by NearlyFreeSpeech.NET.</td>
+<td></td>
+<td text-align="center" height="250px">
+<img class="mySlides" src="images/fleursdumal.jpg" style="width:120px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/handbuch.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/verwandlung.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;"> 
+  <img class="mySlides" src="images/alkitaab.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/greek.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/kaleidoscope.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/minnano.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/hindi.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/mst.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/ecceromani.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/sposi.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;"></td>
 </tr>
+<tr>
+<td></td>
+<td class="col2" border-radius="20px"><a href="../index.html">Home</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../About/about.html">About</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../SciTech/scitech.html">Science and Technology</a></td>
+</tr>
+<tr>
+<td align="center"><img src="../eggplant.jpg" width=30></td>
+<td class="current">Languages and Linguistics</td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../PerfArts/perfarts.html">Performing Arts</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../Journalism/journalism.html">Armchair<br>Journalism</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../BitsBobs/bitsbobs.html">Bits and Bobs</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../Contact/contact.php">Contact</a></td>
+</tr>
+
 </table>
+
+</div>
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+<script>
+$(function() {
+
+    var $sidebar   = $("#posters"), 
+        $window    = $(window),
+        offset     = $sidebar.offset(),
+        topPadding = 15;
+
+    $window.scroll(function() {
+        if ($window.scrollTop() > offset.top) {
+            $sidebar.stop().animate({
+                marginTop: $window.scrollTop() - offset.top + topPadding
+            });
+        } else {
+            $sidebar.stop().animate({
+                marginTop: 0
+            });
+        }
+    });
+    
+});
+</script>
+
+
+<script>
+$('#accordion').accordion({ 
+    collapsible: true, 
+    autoHeight: false, 
+    active: false,
+    heightStyle: 'panel'
+});
+</script>
+
+<script>
+$('#accordion2').accordion({ 
+    collapsible: true, 
+    autoHeight: false, 
+    active: false,
+    heightStyle: 'panel'
+});
+</script>
 
 <script type="text/javascript">
      function showHide(i) {

@@ -12,9 +12,8 @@ p.less {
      width: 75%;
 }
 
-div.buttons {
-     width:75%;
-     text-align: center;
+#buttons {
+margin-left: 15px;
 }
 
 a:link {
@@ -33,7 +32,7 @@ h1, h2 {
      font-family: "Trebuchet MS", Helvetica, sans-serif;
      text-align: center;
      background: #FFD700;
-     width: 74%;
+     /*width: 74%;*/
 }
 
 h1 span.y, h2 span.y {
@@ -142,13 +141,33 @@ div.wrapper {
      width: 19%;
      margin-left: 77%;
      margin-right: 96%;
+}
 
+#headshot_container{
+     width: 200px;
+     height: 330px;
+     display: table-cell;
+     vertical-align: middle 
+}
+
+#logo_container{
+     width: 200px;
+     height: 250px;
+     display: table-cell;
+     vertical-align: middle 
+}
+
+.mySlides {
+    display: block;
+    vertical-align: middle;
+    margin:0 auto;
 }
 
 IMG.displayed {
      display: block;
-     margin-left: auto;
+     margin-left: 20px;
      margin-right: auto;
+     margin-bottom: 20px;
 }
 
 #cleared{
@@ -161,6 +180,10 @@ table.current{
      text-align: center;
      margin-left: auto;
      margin-right: auto;
+}
+
+table.copyright{
+	padding-top: 15px;
 }
 
 table#resume{
@@ -180,8 +203,8 @@ table#resume2{
 }
 
 table.langtab {
-    width: 75%;
-    border-color: #FFD700;
+    width: 100%;
+    border-color: black;
     bgcolor: #FFD700;
 }
 
@@ -207,7 +230,7 @@ table.heading {
 table.title {
     width: 75%;
     color: #006400;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Ariel, sans-serif;
     font-weight: bold;
     text-align: center;
@@ -226,9 +249,9 @@ table.copyright {
     text-align: center;
 }
 
-
 table.menu#pages {
     width: 97%;
+    border-radius: 8px;
 }
 
 table.menu#home {
@@ -246,14 +269,19 @@ table.menu a:hover {
 }
 
 td.current {
+   background-color: #9ACD32;
    color: #4B0082;
+   font-size:18px;
 }
 
-tr.row1 {
+td.col2 {
     background-color: #9ACD32;
+    font-size:18px;
+    padding-top:7px;
+    padding-bottom:7px;
 }
 
-tr.row2 {
+td.col1 {
     background-color:transparent;
 }
 
@@ -261,6 +289,81 @@ tr.row2 {
 
     font-size: 40px;
 }
+
+#accordion, #accordion2, #accordion3, #accordion4, #accordion5 {
+    margin-top: -17px;
+}
+
+#accordion h3, #accordion2 h3, #accordion3 h3, #accordion4 h3, #accordion5 h3 { 
+    background: none;
+    background-color: #FFD700;  
+    border-color: black;  
+    height: 15px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#accordion .ui-accordion-content, #accordion2 .ui-accordion-content, #accordion3 .ui-accordion-content, #accordion4 .ui-accordion-content, #accordion5 .ui-accordion-content {
+    background: none;
+    background-color: #FFD700; 
+}
+
+#thumbnail {
+    float: left;
+    width: 250px;
+    padding-right: 25px;
+}
+    
+#thumbnail_image{    
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#playinfo {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+
+#photo_block {
+}
+
+#photos {
+    height: 120px;
+    width:100%;
+    overflow: scroll;
+}
+
+#profilephoto {
+    float: left;
+    width: 200px;
+
+}
+
+#maincontent {
+    float: left;
+    width: 75%;
+    }
+    
+#sidebarstuff {
+    width:90%;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+
+
+#sectionheading {
+	text-align: center; 
+	font-weight: bold; 
+	font-size: 2em;
+	background-color: #FFD700;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	width: 75%;
+}
+
+
 
 /*
 .menu tr#toprow {
