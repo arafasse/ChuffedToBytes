@@ -5,7 +5,9 @@
   <title>Contact</title>
   <link REL="StyleSheet" TYPE="text/css" HREF="../styles.css">
   <link rel="stylesheet" type="text/css" href="../lightbox/dist/css/lightbox.css" media="screen">
-
+  <link rel="stylesheet" href="../jquery-ui/jquery-ui.css">
+  <script src="../jquery-ui/external/jquery/jquery.js"></script>
+  <script src="../jquery-ui/jquery-ui.js"></script>
 
 </head>
 
@@ -73,50 +75,52 @@ else                /* send the submitted data */
 
 <div id="posters">
 
-   <a data-lightbox="veggies" data-title="Carrot of Compunction" href="images/carrot.png">
-   <img class="displayed" src="images/carrot.png" width=150 style="border:10px; border-style:solid; border-color:#9ACD32;"></a>
-   <br>
-   <a data-lightbox="veggies" data-title="Oxonion" href="images/images/oxonion.png">
-   <img class="displayed" src="images/oxonion.png" width=180 style="border:10px; border-style:solid; border-color:#9ACD32;"></a>
-   <br>
-   <a data-lightbox="veggies" data-title="ApriCult" href="images/apricot.png">
-   <img class="displayed" src="images/apricot.png" width=150 style="border:10px; border-style:solid; border-color:#9ACD32;"></a>
-   <br>
-
-   
-</div>
-
 <table class="menu" id="pages" border="0" border-collapse="collapse">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<col width="50">
-<tr class="row2">
+<col width="20">
+<col background-color="#9ACD32" width="180" border-radius="4px">
+
+<tr>
 <td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td align="center"><img src="../eggplant.jpg" width=30></td>
+<td text-align="center" height="220px">
+<!--images could go here-->
+</td>
 </tr>
-<tr class="row1">
-<td><a href="../index.html">Home</a></td>
-<td><a href="../About/about.html">About</a></td>
-<td><a href="../SciTech/scitech.html">Science and Technology</a></td>
-<td><a href="../LangLing/langling.html">Languages and Linguistics</a></td>
-<td><a href="../PerfArts/perfarts.html">Performing Arts</a></td>
-<td><a href="../Journalism/journalism.html">Armchair<br>Journalism</a></td>
-<td><a href="../BitsBobs/bitsbobs.html">Bits and Bobs</a></td>
+
+<tr>
+<td></td>
+<td class="col2" border-radius="20px"><a href="../index.html">Home</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../About/about.html">About</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../SciTech/scitech.html">Science and Technology</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../LangLing/langling.html">Languages and Linguistics</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../PerfArts/perfarts.html">Performing Arts</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../Journalism/journalism.html">Armchair<br>Journalism</a></td>
+</tr>
+<tr>
+<td></td>
+<td class="col2"><a href="../BitsBobs/bitsbobs.html">Bits and Bobs</a></td>
+</tr>
+<tr>
+<td align="center"><img src="../eggplant.jpg" width=30></td>
 <td class="current">Contact</td>
 </tr>
 
 </table>
+
 
 <br>
 <br>
@@ -126,6 +130,29 @@ else                /* send the submitted data */
 <td>This website was designed and built by Olivia M. Waring using HTML, CSS, and JavaScript, © 2015. She's pretty certain that copyright sign is meaningless in this context, but she's including it because it looks cool.</td>
 </tr>
 </table>
+
+<script>
+$(function() {
+
+    var $sidebar   = $("#posters"), 
+        $window    = $(window),
+        offset     = $sidebar.offset(),
+        topPadding = 15;
+
+    $window.scroll(function() {
+        if ($window.scrollTop() > offset.top) {
+            $sidebar.stop().animate({
+                marginTop: $window.scrollTop() - offset.top + topPadding
+            });
+        } else {
+            $sidebar.stop().animate({
+                marginTop: 0
+            });
+        }
+    });
+    
+});
+</script>
 
 <script type="text/javascript" src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
 </body>
