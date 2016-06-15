@@ -12,6 +12,10 @@ p.less {
      width: 75%;
 }
 
+#caption {
+     font-size: 10px;
+}
+
 #buttons {
 margin-left: 15px;
 }
@@ -56,14 +60,9 @@ table {
 }
 
 
-th {
-     border: 1;
+th.lang, tr.lang, td.lang {
+     border: 2px solid black;
 }
-
-tr {
-     border: 0;
-}
-
 
 
 tr.reviews {
@@ -206,6 +205,7 @@ table.langtab {
     width: 100%;
     border-color: black;
     bgcolor: #FFD700;
+    border-collapse: collapse;
 }
 
 table.menu {
@@ -338,8 +338,7 @@ td.col1 {
 
 #profilephoto {
     float: left;
-    width: 200px;
-
+    width: 240px;
 }
 
 #maincontent {
