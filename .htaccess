@@ -1,4 +1,5 @@
 AuthType Basic
-AuthName "restricted access"
-AuthUserFile /home/public/.htpasswd
-require valid-user 
+AuthName "Chuffed to Bytes - Beta Version"
+AuthUserFile /fs6b/chuffedtobytes/protected/.htpasswd
+
+require user visitor
