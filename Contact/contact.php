@@ -45,7 +45,7 @@ Email address:<br>
 <input type="text" name="email">
 <br>
 <br>
-<textarea rows="12" cols="60"></textarea>
+<textarea rows="12" cols="150"></textarea>
 <br>
 <input type="submit" value="Say hi!">
 </form>
@@ -86,12 +86,12 @@ else                /* send the submitted data */
 <col width="20">
 <col background-color="#9ACD32" width="180" border-radius="4px">
 
-<tr>
+<!--<tr>
 <td></td>
 <td text-align="center" height="220px">
-<!--images could go here-->
+images could go here
 </td>
-</tr>
+</tr>-->
 
 <tr>
 <td></td>
