@@ -8,10 +8,6 @@ p {
      background: #FFD700;
 }
 
-p.less {
-     width: 75%;
-}
-
 #caption {
      font-size: 10px;
 }
@@ -39,9 +35,6 @@ h1, h2 {
      /*width: 74%;*/
 }
 
-h1 span.y, h2 span.y {
-     background: #FFD700;
-}
 
 input[type=submit]{
      font-family: "Trebuchet MS", Helvetica, sans-serif;

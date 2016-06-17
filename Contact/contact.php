@@ -25,9 +25,8 @@
 
 
 
-<div class="wrapper">
-<p class="less"><span class="y">Want to tell me about some awesome orthographical curio you've just discovered? To inform me of the existence of a giant prehistoric fish I don't know about? To report poor <a href="https://xkcd.com/1015/" target="_blank">kerning</a>? To ask me where to buy the awesome swing chair depicted on the first page (hint: <a href="https://www.pier1.com/Swingasan%C2%AE---Circles/2664201,default,pd.html" target="_blank">here</a>)? Please feel to get in touch using the form below! Limericks (PG please) are encouraged. 
-</span>
+<div id="maincontent">
+<p>Want to tell me about some awesome orthographical curio you've just discovered? To inform me of the existence of a giant prehistoric fish I don't know about? To report poor <a href="https://xkcd.com/1015/" target="_blank">kerning</a>? To ask me where to buy the awesome swing chair depicted on the first page (hint: <a href="https://www.pier1.com/Swingasan%C2%AE---Circles/2664201,default,pd.html" target="_blank">here</a>)? Please feel to get in touch using the form below! Limericks (PG please) are encouraged. 
 </p>
 
 
@@ -45,7 +44,7 @@ Email address:<br>
 <input type="text" name="email">
 <br>
 <br>
-<textarea rows="12" cols="150"></textarea>
+<textarea rows="12" cols="100"></textarea>
 <br>
 <input type="submit" value="Say hi!">
 </form>
@@ -69,8 +68,6 @@ else                /* send the submitted data */
         } 
     }   
 ?> 
-
-<br>
 
 <table class="copyright" border="0" border-collapse="collapse">
 <tr>
