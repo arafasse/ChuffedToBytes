@@ -8,6 +8,16 @@ p {
      background: #FFD700;
 }
 
+p.less {
+     width: 75%;
+}
+
+p#footnote {
+     text-align: right;
+     margin-top: -5px;
+     font-size: 12px;
+     }
+
 #caption {
      font-size: 10px;
 }
