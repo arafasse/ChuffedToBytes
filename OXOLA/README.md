@@ -1,2 +1,0 @@
-# OXOLA
-Senel's Website
