@@ -125,7 +125,7 @@ images could go here
 
 </table>
 
-
+</div>
 
 <script>
 $(function() {
