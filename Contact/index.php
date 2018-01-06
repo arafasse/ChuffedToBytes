@@ -2,7 +2,7 @@
 <meta charset=utf-8>
 <html>
 <head>
-  <title>Contact</title>
+  <title>OMW - Contact</title>
   <link REL="StyleSheet" TYPE="text/css" HREF="../styles.css">
   <link rel="stylesheet" type="text/css" href="../lightbox/dist/css/lightbox.css" media="screen">
   <link rel="stylesheet" href="../jquery-ui/jquery-ui.css">
@@ -30,55 +30,52 @@
 </p>
 
 
-<?php 
-$action=$_REQUEST['action']; 
-if ($action=="")    /* display the contact form */ 
-    { 
+<?php
+if (!isset($_POST['name']))    /* display the contact form */
+{
 ?>
-
-<form action="action_page.php" method="get">
-Name:<br>
-<input type="text" name="fullname">
-<br>
-Email address:<br>
-<input type="text" name="email">
-<br>
-<br>
-<textarea rows="12" cols="100"></textarea>
-<br>
-<input type="submit" value="Say hi!">
+<form  action="" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="action" value="submit">
+<input name="name" type="text" value="Your Name" size="30"/>
+<input name="email" type="text" value="Your Email" size="30"/>
+<input name="subject" type="text" value="Subject" size="30"/>
+<textarea name="message" value="Your message" rows="7" cols="30"></textarea>
+<input type="submit" value="Submit"/>
 </form>
+<?php
+}
 
-<?php 
-    }  
-else                /* send the submitted data */ 
-    { 
-    $name=$_REQUEST['name']; 
-    $email=$_REQUEST['email']; 
-    $message=$_REQUEST['message']; 
-    if (($name=="")||($email=="")||($message=="")) 
-        { 
-        echo "All fields are required, please fill <a href=\"\">the form</a> again."; 
-        } 
-    else{         
-        $from="From: $name<$email>\r\nReturn-path: $email"; 
-        $subject="Message sent using your contact form"; 
-        mail("olivia.waring@gmail.com", $subject, $message, $from); 
-        echo "Message sent - thank you! :)"; 
-        } 
-    }   
-?> 
+else                /* send the submitted data */
+{
+$to = "olivia.waring@gmail.com";
+$name=$_POST['name'];
+$email=$_POST['email'];
+$message=$_POST['message'];
+$enquiry = "Name: $name\n\n";
+$enquiry .= "Email Address: $email\n\n";
+$enquiry .= "Message: $message\n\n";
+$headers  = "From: $email\r\n";
+$headers .= "Reply-To: $email\r\n";
+if (($name=="")||($email=="")||($message==""))
+{
+echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+}
+else{      
+$subject="Message sent using your contact form";
+mail($to, $subject, $enquiry, $headers);
+echo "Message sent! Thank you! :)";
+}
+}
 
+?>
 <table class="copyright" border="0" border-collapse="collapse">
 <tr>
-<td>This website was designed and built by Olivia M. Waring using HTML, CSS, and JavaScript, © 2015. She's pretty certain that copyright sign is meaningless in this context, but she's including it because it looks cool.</td>
+<td>This website was designed and built by Olivia M. Waring using HTML, CSS, and JavaScript, © 2015-2018. She's pretty certain that copyright sign is meaningless in this context, but she's including it because it looks cool.</td>
 </tr>
 </table>
-
 </div>
 
 <div id="posters">
-
 <table class="menu" id="pages" border="0" border-collapse="collapse">
 <col width="20">
 <col background-color="#9ACD32" width="180" border-radius="4px">
