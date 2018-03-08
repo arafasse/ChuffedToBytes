@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../jquery-ui/jquery-ui.css">
   <script src="../jquery-ui/external/jquery/jquery.js"></script>
   <script src="../jquery-ui/jquery-ui.js"></script>
+  
 
 </head>
 
@@ -180,6 +181,20 @@ In no particular order:
 <col background-color="#9ACD32" width="180" border-radius="4px">
 <tr>
 <td></td>
+<td text-align="center" height="220px">
+  <img class="mySlides" src="images/Davey1.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/Davey2.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;"> 
+  <img class="mySlides" src="images/Davey3.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/Davey5.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;">
+  <img class="mySlides" src="images/Davey6.jpg" style="width:150px; border:10px;
+border-style:solid; border-color:#9ACD32 #9ACD32;"></td>
+</tr>
+<tr>
+<td></td>
 <td class="col2" border-radius="20px"><a href="..">Home</a></td>
 </tr>
 <tr>
@@ -247,6 +262,23 @@ $('#accordion').accordion({
     active: false,
     heightStyle: 'panel'
 });
+</script>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
 </script>
 
 <script type="text/javascript">
